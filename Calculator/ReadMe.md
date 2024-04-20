@@ -1,4 +1,4 @@
-# Calculator App
+# Calculator App (Version 1.0)
 
 ## Description
 The Calculator App is a simple yet powerful tool for performing mathematical calculations. It provides users with a user-friendly interface to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. With its intuitive design, users can easily input expressions and view results in real-time.
