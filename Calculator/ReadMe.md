@@ -12,7 +12,7 @@ The Calculator App is a simple yet powerful tool for performing mathematical cal
 
 ## Installation Instructions
 To install and set up the Calculator App, follow these steps:
-1. Clone the repository to your local machine: `git clone https://github.com/your_username/calculator-app.git`
+1. Clone the repository to your local machine: `git clone https://github.com/ankit2four/chatgptProjects/tree/main/Calculator`
 2. Navigate to the project directory: `cd calculator-app`
 3. Install the required dependencies using pip: `pip install -r requirements.txt`
 4. Run the application: `python calculator.py`
