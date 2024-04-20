@@ -35,6 +35,13 @@ snake_speed = default_snake_speed
 sound_on = default_sound_on
 level = default_level
 
+# load the logo image
+logo = pygame.image.load("logo.png")
+
+# Set the logo as the taskbar icon
+pygame.display.set_icon(logo)
+
+
 # Sounds (placeholders)
 try:
     script_dir = os.path.dirname(__file__)
