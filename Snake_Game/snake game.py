@@ -26,7 +26,7 @@ font_style = pygame.font.SysFont(None, 30)
 # Default settings
 default_volume = 0.5
 default_snake_speed = 10
-default_sound_on = False
+default_sound_on = True
 default_level = "Easy"
 
 # Current settings
