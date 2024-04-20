@@ -52,8 +52,7 @@ try:
     game_over_sound = pygame.mixer.Sound(os.path.join(script_dir, "game_over_sound.wav"))
     pygame.mixer.music.load(os.path.join(script_dir, "background_music.wav"))
     pygame.mixer.music.set_volume(volume)  # Set default volume
-    #if sound_on:
-     #   pygame.mixer.music.play(-1)  # Play background music indefinitely
+    pygame.mixer.music.play(-1)  # Play background music indefinitely
 except FileNotFoundError:
     print("Error: Sound files not found!")
     sys.exit()
@@ -162,8 +161,8 @@ def handle_settings():
                     # Toggle sound on/off
                     sound_on = not sound_on
                     if sound_on:
-                        #pygame.mixer.music.unpause()  # Unpause music when sound is on
-                        pygame.mixer.music.play(-1)
+                        pygame.mixer.music.unpause()  # Unpause music when sound is on
+                        #pygame.mixer.music.play(-1)
                     else:
                         pygame.mixer.music.pause()  # Pause music when sound is off
                 elif 150 <= x <= 370 and 290 <= y <= 330:
